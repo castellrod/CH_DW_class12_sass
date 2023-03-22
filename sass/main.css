@@ -1,0 +1,48 @@
+/*comentario css*/
+/*VARS*/
+header {
+  background-color: aqua;
+}
+header span {
+  color: #000;
+}
+header nav {
+  background-color: aqua;
+  background-image: url();
+  background-position: top center;
+  border: 5px solid #666;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  color: red;
+}
+header nav ul li a:hover {
+  color: green;
+}
+
+.producto {
+  background-color: blue;
+}
+.producto .producto__titulo {
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+}
+.producto .producto__info {
+  font-size: 16px;
+  line-height: 1;
+}
+.producto .producto__link {
+  color: turquoise;
+}
+
+@media (min-width: 992px) {
+  header {
+    background-color: blue;
+  }
+}/*# sourceMappingURL=main.css.map */

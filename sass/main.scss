@@ -1,0 +1,26 @@
+/*comentario css*/
+// comentario no compila
+
+
+// partials
+@import 'header';
+@import 'vars';
+@import 'page';
+@import 'media';
+
+div{
+    $bg-color: tomato; //var local
+    p{
+        color:blue;
+        background-color: $bg-color;
+    }
+}
+
+article{
+    background-color: red;
+    p{
+        color: black;
+    }
+    width: 500px / (2); /*   + - * /   */
+    height: $tablet * 2; 
+}
